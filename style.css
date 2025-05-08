@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: rgba(23, 35, 61, 1);
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.link-header:hover {
+    opacity: .7;
+}
+
+.botao-sin{
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4cb538;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 1);
+    background-color: #6FBF44;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.botao-sin:hover{
+    opacity: .8;
+}
+
+.botao-sin:active{
+    opacity: .6;
+}
+
+img {
+    margin: 149px 0 100px 123px;
+    display: inline-block;
+}
+ 
+div {
+    display: inline-block;
+    margin-left: 85px;
+    margin-bottom: 100px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: rgba(22, 26, 73, 1);
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: rgba(75, 80, 90, 1);
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-lea {
+    color:  #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.link-lea:hover{
+    opacity: .7;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .botao-sin {
+        margin-left: 320px;
+        width: 192px;
+        height: 57px;
+    }
+
+    img {
+        position: absolute;
+        top: 611px;
+        left: -42px;
+        height: auto;
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        position: static;
+        margin-top: 126px;
+        margin-right: 41px;
+        margin-left: -46px;
+    }
+
+    p {
+        font-size: 19px;
+        padding: 20px;
+        margin: 3px 48px 20px 0;
+        text-align: center;
+    }
+    
+    .link-lea {
+        font-size: 23px;
+        margin-left: 146px
+    }
+}
